@@ -29,3 +29,18 @@ To compile and run the program:
 ```bash
 gcc -o pa01 pa01.c
 ./pa01 kX.txt pX.txt
+```
+## To run bash script:
+
+Enable script to be executable and run .c file with it.
+```bash 
+chmod +x pa01test.mod.sh
+./pa01test.mod.sh pa01.c
+``` 
+
+If you wish to use professor given bash script place the pa01.c file inside of testfiles folder.
+```bash 
+chmod +x pa01test.old.sh
+./pa01test.old.sh pa01.c
+```
+
